@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    height:600px;
+    width:400px;
+    overflow: hidden;
+    border:1px solid #222;
+    position:relative;
+    margin:30px auto;
+}
+.go{
+    position:absolute;
+    top:0;
+    text-align:center;
+    width:100%;
+    z-index: 99;
+}
+.go a{
+    text-decoration: none;
+    color:cyan;
+    font-size:60px;
+    font-weight:300;
+    height:100px;
+    width:400px;
+    display:block;
+    border-bottom:3px dashed #cecece;
+}
+.main{
+    width:400px;
+    height:600px;
+    position:relative;
+    top:-150px;
+}
+.row{
+    width:400px;
+    height:150px;
+}
+.row div{
+    width:99px;
+    height:149px;
+    border-left:1px solid #222;
+    border-bottom:1px solid #222;
+    float:left;
+    cursor:pointer;
+}
